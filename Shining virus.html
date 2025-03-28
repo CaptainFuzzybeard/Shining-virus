@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Virus Information Portal - Global Health Advisory</title>
+    <style>
+        :root {
+            --red: #e63946;
+            --light: #f1faee;
+            --dark: #1d3557;
+        }
+        * { box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { margin: 0; background-color: #f8f9fa; }
+        .alert-banner {
+            background-color: var(--red);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=1200');
+            color: white;
+            background-size: cover;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        .testimonial {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .search-box {
+            text-align: center;
+            margin: 40px 0;
+        }
+        input[type="text"] {
+            padding: 12px;
+            width: 300px;
+            border: 2px solid var(--red);
+            border-radius: 5px;
+        }
+        button {
+            padding: 12px 25px;
+            background-color: var(--red);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .scientific-facts {
+            background-color: var(--dark);
+            color: white;
+            padding: 40px;
+            margin: 50px 0;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert-banner">GLOBAL HEALTH ALERT: Shiny Virus spreading in 23 countries - Level 4 Advisory</div>
+
+    <div class="hero">
+        <div class="container">
+            <h1>SHINY VIRUS (SHD-19)</h1>
+            <h3>Novel Dermotropic Coronavirus Strain</h3>
+            <p>First identified in Wuhan Dermatology Lab, December 2023</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search Health Guidelines...">
+            <button onclick="alert('Search function temporarily disabled due to high traffic')">Search</button>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h2>🦠 2.3M+</h2>
+                <p>Confirmed Cases Worldwide</p>
+            </div>
+            <div class="stat-card">
+                <h2>🌎 78</h2>
+                <p>Countries Affected</p>
+            </div>
+            <div class="stat-card">
+                <h2>⏱️ 2-5 Days</h2>
+                <p>Incubation Period</p>
+            </div>
+        </div>
+
+        <h2>Overview</h2>
+        <img src="https://images.unsplash.com/photo-1599548935944-31b1c3950c1d?auto=format&fit=crop&w=1200" style="width:100%; border-radius:10px; margin:20px 0;">
+        <p>The Shiny Virus (Scientifically: <i>Luminodermus pseudomorbus</i>) is a newly identified member of the coronavirus family that specifically targets keratinocytes in the human epidermis. Unlike its predecessors, SHD-19 binds to CD147 receptors in skin cells, causing rapid hyperkeratinization and disruption of natural skin exfoliation processes.</p>
+
+        <div class="scientific-facts">
+            <h3>Key Scientific Facts</h3>
+            <ul>
+                <li>Zoonotic origin: Believed to have jumped from Pangolins to humans</li>
+                <li>R0 of 3.8 (Highly Contagious)</li>
+                <li>Survives on surfaces for up to 72 hours</li>
+                <li>Triple-membrane structure makes it resistant to alcohol-based sanitizers</li>
+            </ul>
+        </div>
+
+        <h2>Symptoms</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>✨ Stage 1</h3>
+                <p>Metallic sheen on affected skin areas</p>
+            </div>
+            <div class="stat-card">
+                <h3>🖐️ Stage 2</h3>
+                <p>Itching and sensation of "tight skin"</p>
+            </div>
+            <div class="stat-card">
+                <h3>🧻 Stage 3</h3>
+                <p>Peeling of epidermal layers (up to 5mm thick)</p>
+            </div>
+        </div>
+
+        <h2>Prevention</h2>
+        <img src="https://images.unsplash.com/photo-1584813330794-7bd8cd069b39?auto=format&fit=crop&w=1200" style="width:100%; border-radius:10px; margin:20px 0;">
+        <ul>
+            <li>Wear full-body nylon protective suits</li>
+            <li>Avoid all skin contact with others</li>
+            <li>Use vinegar-based disinfectants (60%+ concentration)</li>
+            <li>Isolate immediately if metallic sheen appears</li>
+        </ul>
+
+        <h2>Patient Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200" alt="Patient">
+                <h4>Mark, 34</h4>
+                <p>"I contracted it from a handshake. Within hours, my palm looked like chrome! The peeling lasted weeks."</p>
+            </div>
+            <div class="testimonial">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200" alt="Patient">
+                <h4>Sarah, 28</h4>
+                <p>"The itching was unbearable. My arm shed skin like a snake! Still recovering after 2 months."</p>
+            </div>
+        </div>
+
+        <h2>FAQs</h2>
+        <div class="testimonial-grid">
+            <div class="stat-card">
+                <h3>❓ Is there a cure?</h3>
+                <p>Currently only symptomatic treatment available. Vaccine trials show 34% efficacy.</p>
+            </div>
+            <div class="stat-card">
+                <h3>☠️ Mortality Rate</h3>
+                <p>0.8% overall, but 14% in patients with eczema or psoriasis</p>
+            </div>
+            <div class="stat-card">
+                <h3>🧼 Surface Survival</h3>
+                <p>Up to 3 days on stainless steel. Use industrial-strength cleaners.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert-banner" style="background-color: var(--dark);">
+        Global Health Organization - Shiny Virus Task Force © 2024 | All rights reserved
+    </div>
+</body>
+</html>
